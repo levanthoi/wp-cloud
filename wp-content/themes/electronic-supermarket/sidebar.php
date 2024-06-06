@@ -11,7 +11,7 @@
     <?php if (!dynamic_sidebar('sidebar-1')) : ?>
         <section id="search" class="widget widget_search">
             <h3 class="widget-title"><?php esc_html_e('Search', 'electronic-supermarket'); ?></h3>
-            <!-- <?php get_search_form(); ?> -->
+            <?php get_search_form(); ?>
         </section>
 
         <section id="meta" class="widget widget_meta">
